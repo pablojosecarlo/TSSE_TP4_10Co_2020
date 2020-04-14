@@ -8,31 +8,31 @@
   :message: ''
   :unity_test_time: 0
 - :test: test_grayDecode
-  :line: 21
+  :line: 24
   :message: ''
   :unity_test_time: 0
 - :test: test_binToDec
-  :line: 28
+  :line: 45
   :message: ''
   :unity_test_time: 0
 - :test: test_leerEncoder
-  :line: 34
+  :line: 72
   :message: ''
   :unity_test_time: 0
 - :test: test_encoderToDistance
-  :line: 52
+  :line: 96
   :message: ''
   :unity_test_time: 0
 - :test: test_BIN16_A_DIGITAL5
-  :line: 64
-  :message: ''
-  :unity_test_time: 0
-- :test: test_FLOAT_A_LCD_BLE
-  :line: 78
+  :line: 114
   :message: ''
   :unity_test_time: 0
 - :test: test_FLOAT_A_DIGITAL5
-  :line: 99
+  :line: 133
+  :message: ''
+  :unity_test_time: 0
+- :test: test_FLOAT_A_LCD_BLE
+  :line: 151
   :message: ''
   :unity_test_time: 0
 :failures: []
@@ -43,4 +43,4 @@
   :failed: 0
   :ignored: 0
 :stdout: []
-:time: 0.0016614950000075623
+:time: 0.0031318510000346578

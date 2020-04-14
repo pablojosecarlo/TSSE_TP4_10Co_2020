@@ -18,8 +18,8 @@ extern void test_binToDec(void);
 extern void test_leerEncoder(void);
 extern void test_encoderToDistance(void);
 extern void test_BIN16_A_DIGITAL5(void );
-extern void test_FLOAT_A_LCD_BLE(void );
 extern void test_FLOAT_A_DIGITAL5(void );
+extern void test_FLOAT_A_LCD_BLE(void );
 
 
 /*=======Mock Management=====*/
@@ -96,13 +96,13 @@ int main(void)
 {
   UnityBegin("test_encoder10bits.c");
   run_test(test_setupEncoder, "test_setupEncoder", 11);
-  run_test(test_grayDecode, "test_grayDecode", 21);
-  run_test(test_binToDec, "test_binToDec", 28);
-  run_test(test_leerEncoder, "test_leerEncoder", 34);
-  run_test(test_encoderToDistance, "test_encoderToDistance", 52);
-  run_test(test_BIN16_A_DIGITAL5, "test_BIN16_A_DIGITAL5", 64);
-  run_test(test_FLOAT_A_LCD_BLE, "test_FLOAT_A_LCD_BLE", 78);
-  run_test(test_FLOAT_A_DIGITAL5, "test_FLOAT_A_DIGITAL5", 99);
+  run_test(test_grayDecode, "test_grayDecode", 24);
+  run_test(test_binToDec, "test_binToDec", 45);
+  run_test(test_leerEncoder, "test_leerEncoder", 72);
+  run_test(test_encoderToDistance, "test_encoderToDistance", 96);
+  run_test(test_BIN16_A_DIGITAL5, "test_BIN16_A_DIGITAL5", 114);
+  run_test(test_FLOAT_A_DIGITAL5, "test_FLOAT_A_DIGITAL5", 133);
+  run_test(test_FLOAT_A_LCD_BLE, "test_FLOAT_A_LCD_BLE", 151);
 
   CMock_Guts_MemFreeFinal();
   return UnityEnd();

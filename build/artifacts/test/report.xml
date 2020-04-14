@@ -21,10 +21,10 @@
 			<Name>test/test_encoder10bits.c::test_BIN16_A_DIGITAL5</Name>
 		</Test>
 		<Test id="7">
-			<Name>test/test_encoder10bits.c::test_FLOAT_A_LCD_BLE</Name>
+			<Name>test/test_encoder10bits.c::test_FLOAT_A_DIGITAL5</Name>
 		</Test>
 		<Test id="8">
-			<Name>test/test_encoder10bits.c::test_FLOAT_A_DIGITAL5</Name>
+			<Name>test/test_encoder10bits.c::test_FLOAT_A_LCD_BLE</Name>
 		</Test>
 	</SuccessfulTests>
 	<IgnoredTests/>
