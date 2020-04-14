@@ -1,0 +1,46 @@
+---
+:source:
+  :path: test
+  :file: test_encoder10bits.c
+:successes:
+- :test: test_setupEncoder
+  :line: 11
+  :message: ''
+  :unity_test_time: 0
+- :test: test_grayDecode
+  :line: 21
+  :message: ''
+  :unity_test_time: 0
+- :test: test_binToDec
+  :line: 28
+  :message: ''
+  :unity_test_time: 0
+- :test: test_leerEncoder
+  :line: 34
+  :message: ''
+  :unity_test_time: 0
+- :test: test_encoderToDistance
+  :line: 52
+  :message: ''
+  :unity_test_time: 0
+- :test: test_BIN16_A_DIGITAL5
+  :line: 64
+  :message: ''
+  :unity_test_time: 0
+- :test: test_FLOAT_A_LCD_BLE
+  :line: 78
+  :message: ''
+  :unity_test_time: 0
+- :test: test_FLOAT_A_DIGITAL5
+  :line: 99
+  :message: ''
+  :unity_test_time: 0
+:failures: []
+:ignores: []
+:counts:
+  :total: 8
+  :passed: 8
+  :failed: 0
+  :ignored: 0
+:stdout: []
+:time: 0.0014561700008925982

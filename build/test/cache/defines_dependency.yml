@@ -1,0 +1,7 @@
+---
+"/var/lib/gems/2.5.0/gems/ceedling-0.29.1/vendor/unity/src/unity.c":
+- TEST
+src/encoder10bits.c:
+- TEST
+build/test/mocks/mock_hardware.c:
+- TEST

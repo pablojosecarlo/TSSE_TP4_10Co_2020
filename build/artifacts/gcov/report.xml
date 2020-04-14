@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<TestRun>
+	<FailedTests/>
+	<SuccessfulTests>
+		<Test id="1">
+			<Name>test/test_encoder10bits.c::test_setupEncoder</Name>
+		</Test>
+		<Test id="2">
+			<Name>test/test_encoder10bits.c::test_grayDecode</Name>
+		</Test>
+		<Test id="3">
+			<Name>test/test_encoder10bits.c::test_binToDec</Name>
+		</Test>
+		<Test id="4">
+			<Name>test/test_encoder10bits.c::test_leerEncoder</Name>
+		</Test>
+		<Test id="5">
+			<Name>test/test_encoder10bits.c::test_encoderToDistance</Name>
+		</Test>
+		<Test id="6">
+			<Name>test/test_encoder10bits.c::test_BIN16_A_DIGITAL5</Name>
+		</Test>
+		<Test id="7">
+			<Name>test/test_encoder10bits.c::test_FLOAT_A_LCD_BLE</Name>
+		</Test>
+		<Test id="8">
+			<Name>test/test_encoder10bits.c::test_FLOAT_A_DIGITAL5</Name>
+		</Test>
+	</SuccessfulTests>
+	<IgnoredTests/>
+	<Statistics>
+		<Tests>8</Tests>
+		<Ignores>0</Ignores>
+		<FailuresTotal>0</FailuresTotal>
+		<Errors>0</Errors>
+		<Failures>0</Failures>
+	</Statistics>
+</TestRun>
